@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MovieRequest {
 
-    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    @RequestMapping(value = "/")
     public String testCall() {
-        return "HELLO!!!";
+        return "Hey there, welcome to Auro very-first backend page. This site is still under construction";
     }
 }
