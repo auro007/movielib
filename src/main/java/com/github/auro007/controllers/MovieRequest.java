@@ -13,6 +13,6 @@ public class MovieRequest {
 
     @RequestMapping(value = "/")
     public String testCall() {
-        return "Hey there, welcome to Auro very-first backend page. This site is still under construction";
+        return "Hey there, welcome to Auro's very-first backend page. This site is still under construction";
     }
 }
